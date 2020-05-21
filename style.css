@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://krebsonsecurity.com/wp-content/uploads/2014/05/numbers.jpg');
+}
+#main {
+    background: linear-gradient(45deg,blue, purple,red ,green ,yellow );
+    height: 600px;
+    width: 400px;
+    transform: translate(400px,150px);
+    border: solid;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: rgb(6, 6, 80);
+    box-shadow: blue;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,.6)
+    ;
+}
+h1 {
+    transform: translate(0px,20px);
+    font-family: monospace;
+    font-style: oblique;
+    color: rgb(170, 186, 190);
+    text-shadow: 2px 2px rgba(0,0,0,.4);
+    font-size: 50px;
+}
+#screen {
+    border-radius: 30px;
+    width: 398px;
+    height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0,0,0,.2);
+    font-size: 30px;
+    margin: auto;;
+    background: radial-gradient(circle,white,grey);
+    border-style: none;
+    transform: translate(0px,50px);
+    opacity: .6;
+    box-shadow: 20px 10px 10px 0 rgba(0,0,0,.4);
+}
+#grid-container {
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    border-
+    border-radius: 8px;
+    background-color: black;
+    opacity: .7;
+    box-shadow: 20px 10px 10px 0 rgba(0,0,0,.4);
+    
+}
+p {
+    margin: auto;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
+#adjust {
+    transform: translate(0px,0);
+}
+.round {
+    border-radius: 50%;
+}
