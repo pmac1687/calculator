@@ -1,3 +1,3 @@
 # calculator
 browser calculator
-simple calculator built with html,js,css
+simple calculator built with html and css
